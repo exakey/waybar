@@ -140,7 +140,7 @@ window#waybar {
 
 #clock {
   color: @module-fg;
-  background: @media;
+  background: @main-bg;
   /*background: @main-bg;*/
   margin-top: 5px;
   margin-bottom: 5px;
