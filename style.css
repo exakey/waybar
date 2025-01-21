@@ -79,8 +79,8 @@ window#waybar {
 #custom-media {
   color: @main-fg;
   background-color: @media;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-left: 8px;
   margin-right: 0px;
   padding-right: 8px;
@@ -90,9 +90,9 @@ window#waybar {
 #backlight.icon {
   color: @blank-fg;
   background: @blank-bg;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
   margin-right: 0px;
   padding-top: 1px;
   padding-bottom: 0px;
@@ -128,8 +128,8 @@ window#waybar {
 #backlight {
   color: @main-fg;
   background: @backlight;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   /*margin-right: 10px;*/
   margin-right: 0px;
   padding-left: 6px;
@@ -153,8 +153,8 @@ window#waybar {
 #pulseaudio.icon {
   color: @blank-fg;
   background: @blank-bg;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 0px;
@@ -191,8 +191,8 @@ window#waybar {
 #pulseaudio {
   color: @main-fg;
   background: @pulseaudio;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 0px;
   padding-left: 6px;
   padding-right: 6px;
@@ -203,8 +203,8 @@ window#waybar {
 #custom-wifi {
   color: @blank-fg;
   background: @norm;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -215,8 +215,8 @@ window#waybar {
 #network {
   color: @main-fg;
   background: @wifi;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 10px;
   padding-left: 6px;
   padding-right: 6px;
@@ -227,8 +227,8 @@ window#waybar {
 #cpu.icon {
   color: @blank-fg;
   background: @norm;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 0px;
   padding-left: 6px;
   padding-right: 12px;
@@ -254,8 +254,8 @@ window#waybar {
 #cpu {
   color: @main-fg;
   background: @cpu;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 10px;
   padding-left: 0px;
   padding-right: 0px;
@@ -281,8 +281,8 @@ window#waybar {
 #custom-cpuinfo.icon {
   color: @blank-fg;
   background: @norm;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -293,8 +293,8 @@ window#waybar {
 #custom-cpuinfo {
   color: @main-fg;
   background: @cpu;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 10px;
   padding-left: 6px;
   padding-right: 6px;
@@ -305,8 +305,8 @@ window#waybar {
 #custom-gpuinfo.icon {
   color: @blank-fg;
   background: @norm;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 0px;
   padding-left: 6px;
   padding-right: 11px;
@@ -317,8 +317,8 @@ window#waybar {
 #custom-gpuinfo {
   color: @main-fg;
   background: @cpu;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 10px;
   padding-left: 6px;
   padding-right: 6px;
@@ -328,8 +328,8 @@ window#waybar {
 #memory.icon {
   color: @blank-fg;
   background: @norm;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 0px;
   /*padding-left: 6px;*/
   /*padding-right: 11px;*/
@@ -357,8 +357,8 @@ window#waybar {
 #memory {
   color: @main-fg;
   background: @memory;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 10px;
   padding-left: 6px;
   padding-right: 6px;
@@ -384,8 +384,8 @@ window#waybar {
 #battery.icon {
   color: @blank-fg;
   background: @norm;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-right: 0px;
   padding-left: 9px;
   padding-right: 8px;
@@ -421,9 +421,9 @@ window#waybar {
 #battery {
   color: @main-fg;
   background: @battery;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 6px;
   padding-left: 8px;
   padding-right: 5px;
   padding-top: 0px;
