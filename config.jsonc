@@ -14,8 +14,8 @@
   "margin-bottom": 0,
   // positions generated based on config.ctl //
   "modules-left": [
-    "custom/separators",
-    "custom/separators",
+    // "custom/separators",
+    // "custom/separators",
     "backlight#icon",
     "backlight",
     "custom/separators",
@@ -47,8 +47,8 @@
     "custom/gpuinfo",
     "battery#icon",
     "battery",
-    "custom/separators",
-    "custom/separators",
+    // "custom/separators",
+    // "custom/separators",
     ""
   ],
   "custom/updates": {
@@ -99,6 +99,7 @@
     "format": "{}",
     "format-en": "US",
     "format-ru": "RU",
+    "on-click": "$HOME/.local/share/bin/keyboardswitch.sh"
     // "format-uk": "UA-uk",
     // "keyboard-name": "micro-star-int'l-co.,-ltd.-msi-gk50-elite-gaming-keyboard"
   },
@@ -209,7 +210,7 @@
     },
     // "format": "<span font='12'>{icon}</span>",
     "format": "{icon}",
-    "format-muted": " 󰝟 ",
+    "format-muted": "󰝟",
     "format-icons": {
       "headphone": "󰋋",
       "hands-free": "󰥰",
@@ -268,6 +269,7 @@
     },
     // "format": "<span font='12'></span>",
     "format": "",
+    "on-click": "$HOME/.local/share/bin/cpu.sh",
     "interval": 1,
     "tooltip": false,
     "min-length": 1,
@@ -297,6 +299,7 @@
     "exec": "~/.config/waybar/scripts/cpuinfo.sh",
     "return-type": "json",
     "format": "{}",
+    "on-click": "$HOME/.local/share/bin/cpu.sh",
     "tooltip": true,
     "interval": 5,
     "min-length": 4,
@@ -327,8 +330,8 @@
     },
     //"format": "<span font='9'></span>",
     // "format": "<span font='12'>󰘚</span>",
-    // "format": "󰘚",
-    "format": "",
+    "format": "󰘚",
+    // "format": "",
     "format-critical": "󰀦",
     "tooltip": false,
     "tooltip-format": "Memory Used: {used:0.1f} GB / {total:0.1f} GB",
