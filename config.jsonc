@@ -21,8 +21,8 @@
     "custom/separators",
     "pulseaudio#icon",
     "pulseaudio",
-    "custom/media",
-    "cava"
+    "cava",
+    "custom/media"
   ],
   "modules-center": [
     // "custom/separators",
