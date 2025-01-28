@@ -25,10 +25,10 @@ window#waybar {
 }
 
 #workspaces button {
-  color: @main-fg;
+  color: @text;
   background-color: @main-bg;
   border-radius: 0px;
-  margin-top: -3px;
+  margin-top: -2px;
   margin-bottom: -0px;
   margin-left: 0px;
   margin-right: 0px;
