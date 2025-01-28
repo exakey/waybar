@@ -28,36 +28,33 @@ window#waybar {
   color: @main-fg;
   background-color: @main-bg;
   border-radius: 0px;
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: -3px;
+  margin-bottom: -0px;
   margin-left: 0px;
   margin-right: 0px;
   padding: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-  animation: ws_normal 20s ease-in-out 1;
+  padding-left: 4px;
+  padding-right: 4px;
+  /*animation: ws_normal 20s ease-in-out 1;*/
+  animation: none;
 }
 
-/* Active Workspace Button */
 #workspaces button.active {
-  color: @module-fg;
+  color: @red;
   background: @main-bg;
-  margin-right: 0px;
-  margin-left: 10px;
-  padding-right: 4px;
-  padding-left: 3px;
   animation: ws_active 20s ease-in-out 1;
   transition: all 0.2s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
-/* Hover Effect for Workspace Buttons */
 #workspaces button:hover {
-  color: @active-bg;
-  background: @module-fg;
-  animation: ws_hover 20s ease-in-out 1;
-  transition: all 0.2s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+  color: @module-fg;
+  background: @main-bg;
+  /*animation: ws_hover 20s ease-in-out 1;*/
+  /*transition: all 0.2s cubic-bezier(0.55, -0.68, 0.48, 1.682);*/
+  animation: none;
+  transition: none;
 }
 
 #language {
@@ -92,7 +89,7 @@ window#waybar {
   background: @blank-bg;
   margin-top: 6px;
   margin-bottom: 6px;
-  margin-left: 6px;
+  margin-left: 8px;
   margin-right: 0px;
   padding-top: 1px;
   padding-bottom: 0px;
@@ -423,7 +420,7 @@ window#waybar {
   background: @battery;
   margin-top: 6px;
   margin-bottom: 6px;
-  margin-right: 6px;
+  margin-right: 8px;
   padding-left: 8px;
   padding-right: 5px;
   padding-top: 0px;
