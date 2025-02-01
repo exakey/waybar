@@ -4,7 +4,7 @@
                 "layer": "top",
                 "position": "top",
                 "margin-top": 10,
-                "margin-bottom": -0,
+                "margin-bottom": 0,
                 "height": 1,
                 "fixed-center": true,
                 "exclusive": true,
@@ -73,7 +73,12 @@
                         "custom/media",
                         ""
                 ],
-                "modules-center": ["clock", "custom/updates", ""],
+                "modules-center": [
+                        "clock",
+                        "custom/updates",
+                        // "hyprland/workspaces",
+                        ""
+                ],
                 "modules-right": [
                         "hyprland/submap",
                         "hyprland/language",
