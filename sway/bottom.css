@@ -4,8 +4,7 @@
         font-weight: normal;
         /*font-size: 13.9px;*/
         font-size: 14px;
-        min-height: 1px;
-        min-width: 26px;
+        min-height: 12px;
 }
 
 @import "theme.css";
@@ -19,9 +18,9 @@ window#waybar {
         background: @module;
         margin-top: 5px;
         margin-bottom: 5px;
-        margin-left: 0px;
+        margin-left: 5px;
         margin-right: 2px;
-        padding-left: 0px;
+        padding-left: 2px;
         padding-right: 0px;
 }
 
@@ -29,8 +28,8 @@ window#waybar {
         color: @main-fg;
         background-color: @main-bg;
         border-radius: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin-top: 6px;
+        margin-bottom: 6px;
         margin-left: 0px;
         margin-right: 0px;
         padding: 0px;
@@ -46,11 +45,11 @@ window#waybar {
         color: @module-fg;
         background: @main-bg;
         margin-right: 0px;
-        margin-left: 0px;
+        margin-left: 10px;
         padding-right: 4px;
         padding-left: 3px;
-        animation: none;
-        transition: none;
+        animation: ws_active 20s ease-in-out 1;
+        transition: all 0.2s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 /* Hover Effect for Workspace Buttons */
@@ -66,15 +65,14 @@ window#waybar {
 }
 
 #submap {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 8px;
+        margin-right: 8px;
 }
 
 #cava {
         color: @main-fg;
         background-color: @main-bg;
-        margin-top: 10px;
-        margin-left: 0px;
+        margin-left: 8px;
         margin-right: 0px;
 }
 
@@ -83,12 +81,10 @@ window#waybar {
         background-color: @media;
         margin-top: 6px;
         margin-bottom: 6px;
-        margin-left: 6px;
-        margin-right: 6px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 0px;
-        padding-left: 0px;
+        margin-left: 8px;
+        margin-right: 0px;
+        padding-right: 8px;
+        padding-left: 10px;
 }
 
 #backlight.icon {

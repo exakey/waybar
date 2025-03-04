@@ -13,16 +13,14 @@
                 "reload_style_on_change": true,
                 "margin-left": 40,
                 "margin-right": 40,
-                "modules-center": ["hyprland/workspaces", ""],
-                "hyprland/workspaces": {
+                "modules-center": ["sway/workspaces", ""],
+                "sway/workspaces": {
                         "rotate": 0,
                         "all-outputs": true,
                         "active-only": false,
                         "on-click": "activate",
-                        "on-click-right": "hyprctl dispatch togglespecialworkspace",
+                        "on-click-right": "close",
                         "disable-scroll": true,
-                        "on-scroll-up": "hyprctl dispatch workspace -1",
-                        "on-scroll-down": "hyprctl dispatch workspace +1",
                         "format": "{icon}",
                         "format-icons": {
                                 "1": "---------------------",
@@ -80,8 +78,8 @@
                         ""
                 ],
                 "modules-right": [
-                        "hyprland/submap",
-                        "hyprland/language",
+                        "sway/mode",
+                        "sway/language",
                         "custom/separators",
                         "custom/wifi",
                         "network",
@@ -91,8 +89,8 @@
                         "memory",
                         "custom/cpuinfo#icon",
                         "custom/cpuinfo",
-                        "custom/gpuinfo#icon",
-                        "custom/gpuinfo",
+                        // "custom/gpuinfo#icon",
+                        // "custom/gpuinfo",
                         "battery#icon",
                         "battery",
                         ""
@@ -107,7 +105,7 @@
                         "tooltip": true,
                         "signal": 20
                 },
-                "hyprland/workspaces": {
+                "sway/workspaces": {
                         "rotate": 0,
                         "all-outputs": true,
                         "active-only": false,
@@ -140,7 +138,7 @@
                                 "9": []
                         }
                 },
-                "hyprland/language": {
+                "sway/language": {
                         "format": "{}",
                         "format-en": "US",
                         "format-ru": "RU",
@@ -281,7 +279,7 @@
                         "min-length": 2,
                         "max-length": 6
                 },
-                "hyprland/submap": {
+                "sway/mode": {
                         "format": "{}",
                         "max-length": 8,
                         "tooltip": false
