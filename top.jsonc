@@ -19,10 +19,10 @@
                         "all-outputs": true,
                         "active-only": false,
                         "on-click": "activate",
-                        "on-click-right": "hyprctl dispatch togglespecialworkspace",
+                        "on-click-right": "close",
                         "disable-scroll": true,
-                        "on-scroll-up": "hyprctl dispatch workspace -1",
-                        "on-scroll-down": "hyprctl dispatch workspace +1",
+                        "on-scroll-down": "hyprctl dispatch workspace -1",
+                        "on-scroll-up": "hyprctl dispatch workspace +1",
                         "format": "{icon}",
                         "format-icons": {
                                 "1": "---------------------",
