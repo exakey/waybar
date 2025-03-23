@@ -129,7 +129,9 @@ class PlayerManager:
             if player_name == "spotify"
             and "mpris:trackid" in metadata
             and ":ad:" in player.props.metadata["mpris:trackid"]
-            else f"{title}" if artist and title else title
+            else f"{title}"
+            if artist and title
+            else title
         )
 
         if track_info:

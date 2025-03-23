@@ -287,7 +287,7 @@
                         "tooltip": false
                 },
                 "custom/wifi": {
-                        "exec": "$HOME/.local/share/bin/wifiinfo.sh",
+                        "exec": "$HOME/.config/waybar/scripts/wifiinfo.sh",
                         "return-type": "json",
                         "format": "{}",
                         "tooltip": true,
