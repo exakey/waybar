@@ -17,31 +17,12 @@ br - border
 
 /* Module Colors */
 @define-color module-fg             #f5e0dc;
-/* @define-color module-bg             #313244; */
 @define-color module-bg             #1e1e2e;
-@define-color workspaces            #11111b;
 
 @define-color media                 #1e1e2e;
-@define-color window                #1e1e2e;
-@define-color cpuinfo               #1e1e2e;
-@define-color memory                #1e1e2e;
-@define-color clock                 #1e1e2e;
-@define-color cpu                   #1e1e2e;
-@define-color time                  #313244;
-@define-color date                  #1e1e2e;
-@define-color wifi                  #1e1e2e;
 @define-color blank-fg              #11111b;
 @define-color blank-bg              #313244;
-
-@define-color wlg-fg                #cdd6f4;
-@define-color wlg-act               #313244;
-@define-color wlg-hvr               #313244;
-@define-color wlg-bg                #181825;
-
-@define-color pulseaudio            #1e1e2e;
-@define-color backlight             #1e1e2e;
-@define-color battery               #1e1e2e;
-@define-color power                 #1e1e2e;
+@define-color empty-fg              #313244;
 
 /* State Colors */
 @define-color full                  #a6e3a1;

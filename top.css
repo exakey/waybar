@@ -15,7 +15,7 @@ window#waybar {
 
 #custom-updates {
         color: @module-fg;
-        background: @module;
+        background: @main-bg;
         margin-top: 5px;
         margin-bottom: 5px;
         margin-left: 5px;
@@ -25,7 +25,7 @@ window#waybar {
 }
 
 #workspaces button.empty {
-        color: @surface0;
+        color: @empty-fg;
         background-color: @main-bg;
         border-radius: 0px;
         margin-top: -2px;
@@ -42,7 +42,7 @@ window#waybar {
 }
 
 #workspaces button {
-        color: @text;
+        color: @main-fg;
         background-color: @main-bg;
         border-radius: 0px;
         margin-top: -2px;
@@ -75,10 +75,14 @@ window#waybar {
 }
 
 #language {
+        color: @module-fg;
+        background: @main-bg;
         margin-left: 0px;
 }
 
 #submap {
+        color: @module-fg;
+        background: @main-bg;
         margin-left: 8px;
         margin-right: 8px;
 }
@@ -141,7 +145,7 @@ window#waybar {
 
 #backlight {
         color: @main-fg;
-        background: @backlight;
+        background: @media;
         margin-top: 6px;
         margin-bottom: 6px;
         /*margin-right: 10px;*/
@@ -204,7 +208,7 @@ window#waybar {
 
 #pulseaudio {
         color: @main-fg;
-        background: @pulseaudio;
+        background: @media;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 0px;
@@ -216,7 +220,7 @@ window#waybar {
 
 #custom-wifi {
         color: @blank-fg;
-        background: @norm;
+        background: @main-fg;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 0px;
@@ -228,7 +232,7 @@ window#waybar {
 
 #network {
         color: @main-fg;
-        background: @wifi;
+        background: @media;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 10px;
@@ -240,7 +244,7 @@ window#waybar {
 
 #cpu.icon {
         color: @blank-fg;
-        background: @norm;
+        background: @main-fg;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 0px;
@@ -252,7 +256,7 @@ window#waybar {
 
 #cpu.icon.norm {
         color: @blank-fg;
-        background: @norm;
+        background: @main-fg;
 }
 
 #cpu.icon.warning {
@@ -267,7 +271,7 @@ window#waybar {
 
 #cpu {
         color: @main-fg;
-        background: @cpu;
+        background: @media;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 10px;
@@ -278,23 +282,23 @@ window#waybar {
 }
 
 #cpu.norm {
-        color: @norm;
-        background: @cpu;
+        color: @main-fg;
+        background: @media;
 }
 
 #cpu.warning {
         color: @warning;
-        background: @cpu;
+        background: @media;
 }
 
 #cpu.critical {
         color: @critical;
-        background: @cpu;
+        background: @media;
 }
 
 #custom-cpuinfo.icon {
         color: @blank-fg;
-        background: @norm;
+        background: @main-fg;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 0px;
@@ -306,7 +310,7 @@ window#waybar {
 
 #custom-cpuinfo {
         color: @main-fg;
-        background: @cpu;
+        background: @media;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 10px;
@@ -318,7 +322,7 @@ window#waybar {
 
 #custom-gpuinfo.icon {
         color: @blank-fg;
-        background: @norm;
+        background: @main-fg;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 0px;
@@ -330,7 +334,7 @@ window#waybar {
 
 #custom-gpuinfo {
         color: @main-fg;
-        background: @cpu;
+        background: @media;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 10px;
@@ -339,9 +343,10 @@ window#waybar {
         padding-top: 0px;
         padding-bottom: 0px;
 }
+
 #memory.icon {
         color: @blank-fg;
-        background: @norm;
+        background: @main-fg;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 0px;
@@ -355,7 +360,7 @@ window#waybar {
 
 #memory.icon.norm {
         color: @blank-fg;
-        background: @norm;
+        background: @main-fg;
 }
 
 #memory.icon.warning {
@@ -370,7 +375,7 @@ window#waybar {
 
 #memory {
         color: @main-fg;
-        background: @memory;
+        background: @media;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 10px;
@@ -382,22 +387,22 @@ window#waybar {
 
 #memory.norm {
         color: @norm;
-        background: @memory;
+        background: @media;
 }
 
 #memory.warning {
         color: @warning;
-        background: @memory;
+        background: @media;
 }
 
 #memory.critical {
         color: @critical;
-        background: @memory;
+        background: @media;
 }
 
 #battery.icon {
         color: @blank-fg;
-        background: @norm;
+        background: @main-fg;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 0px;
@@ -434,7 +439,7 @@ window#waybar {
 
 #battery {
         color: @main-fg;
-        background: @battery;
+        background: @media;
         margin-top: 6px;
         margin-bottom: 6px;
         margin-right: 8px;
